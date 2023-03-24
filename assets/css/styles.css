@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: white;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+}
+
+.chat-container {
+    font-family: sans-serif;
+    width: 400px;
+
+    overflow: hidden;
+
+  }
+  
+  .chat-header {
+
+    color: rgb(32, 32, 32);
+    padding: 10px;
+  }
+  
+  .chat-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .chat-history {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  
+  .chat-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .chat-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+  }
+  
+  .chat-item-user {
+    background-color: #ecf0f1;
+    text-align: right;
+    
+  }
+  
+  .chat-item-bot {
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    text-align: left;
+    font-style: italic;
+  }
+  
+  .chat-message {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .chat-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .chat-input {
+    flex: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .chat-send-btn {
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .chat-send-btn:hover {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.24), 0 2px 4px 0 rgba(0,0,0,0.19);
+  }
